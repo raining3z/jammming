@@ -1,0 +1,14 @@
+.App-playlist {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 17% 10% 17%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
