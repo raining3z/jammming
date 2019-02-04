@@ -19,7 +19,9 @@ class PlaylistItem extends Component {
                     <h3>{this.props.track}</h3>
                     <p>{this.props.artist} | {this.props.album}</p>
                 </div>
-                <button className="Track-action" onClick={this.removeItemToPlaylist}>-</button>
+                <button 
+                    className="Track-action" 
+                    onClick={this.removeItemToPlaylist}>-</button>
             </div>
         )
     }

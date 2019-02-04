@@ -5,8 +5,12 @@ class Search extends Component {
     render() {
         return(
             <div className="SearchBar">
-                <input placeholder="Enter A Song Title" value={this.props.search} onChange={this.props.updateSearch} />
-                <button onClick={this.props.click}>SEARCH</button>
+                <input 
+                    placeholder="Enter A Song Title" 
+                    value={this.props.search} 
+                    onChange={this.props.updateSearch} />
+                <button 
+                    onClick={this.props.click}>SEARCH</button>
             </div>
         )
     }
